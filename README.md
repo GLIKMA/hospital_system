@@ -59,8 +59,3 @@ java -cp bin view.Main
 - If you prefer a different output file name, edit `utils/MyFileLogWriter.java` (the `outputLogFile` name) or update the message string in `view.Main` to match.
 - The project has no external build tool configuration (Maven/Gradle). You can add one if you want to manage dependencies or simplify builds.
 
----
-
-If you want, I can also:
-- add a small script (`build_and_run.sh`) to automate compilation and execution, or
-- create a Gradle or Maven wrapper for easier building.
